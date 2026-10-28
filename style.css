@@ -92,3 +92,17 @@ main, .view, .page-heading, .recent-panel, .profile-section { min-width:0; max-w
   .app-shell { max-width:520px; }
   .bottom-nav { max-width:520px; }
 }
+
+/* Resumo simples do pagamento, otimizado para telas pequenas */
+.payment-preview {
+  width: 100%;
+  border: 1px solid rgba(143,198,255,.35);
+  border-radius: 14px;
+  background: rgba(143,198,255,.09);
+  color: #d8eaff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.45;
+  padding: 14px;
+  overflow-wrap: anywhere;
+}
